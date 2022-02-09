@@ -10,7 +10,7 @@ RUN mvn clean package
 
 COPY ./target/tags-0.0.1-SNAPSHOT.jar /opt/app.jar
 
-EXPOSE 8080 5005
+EXPOSE 8080
 
 ENV JAVA_OPTS=""
 
